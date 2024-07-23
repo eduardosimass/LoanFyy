@@ -39,15 +39,12 @@ public class LoanService {
 
 
     //Conceder o empréstimo pessoal se o salário do cliente for igual ou inferior a R$ 3000.
-
     private boolean isApprovedPersonalLoan(CostumerDto costumerDto){
         return costumerDto.income() <= 3000;
     }
 
     //Conceder o empréstimo pessoal se o salário
     // do cliente estiver entre R$ 3000 e R$ 5000, se o cliente tiver menos de 30 anos e residir em São Paulo (SP).
-
-
     private boolean isResidentOfSaoPaulo(CostumerDto costumerDto){
         return Objects.equals(costumerDto.localtion(), "SP");
     }
