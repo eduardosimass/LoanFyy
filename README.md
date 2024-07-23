@@ -67,5 +67,3 @@ HTTP/1.1 200 Ok
 - Conceder o empréstimo com garantia se o salário do cliente estiver entre R$ 3000 e R$ 5000, se o cliente tiver
   menos de 30 anos e residir em São Paulo (SP).
 
-## Soluções
-
